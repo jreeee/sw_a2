@@ -1,5 +1,5 @@
 package calc;
 
-public class Associative {
+interface Associative {
   
 }

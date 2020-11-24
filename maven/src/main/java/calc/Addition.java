@@ -2,7 +2,7 @@ package calc;
 
 import java.util.Map;
 
-public class Addition extends Binary{
+public class Addition extends Binary implements Associative {
 
   public Addition(Expression lhs, Expression rhs) {
     super(rhs, lhs);
@@ -11,7 +11,7 @@ public class Addition extends Binary{
     return r.evaluate(m) + l.evaluate(m)  ;
   }
   public String toString() {
-    return "+";
+    return r.toString() + "+" + l.toString();
   }
   public int rank() {
     return 1;

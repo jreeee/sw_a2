@@ -11,7 +11,7 @@ public class Subtraction extends Binary{
      return r.evaluate(m) - l.evaluate(m)  ;
   }
   public String toString() {
-    return "-";
+    return r.toString() + "-" + l.toString();
   }
   public int rank() {
     return 1;
