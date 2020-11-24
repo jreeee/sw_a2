@@ -1,13 +1,5 @@
 package calc;
 
-public class Unary {
-    public Unary() {
+public abstract class Unary {
 
-    }
-    public Unary(Value a){
-      
-    }
-    public Unary(Variable a){
-      
-    }
 }

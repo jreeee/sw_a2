@@ -1,5 +1,5 @@
 package calc;
 
-public class CalcException {
+public class CalcException extends RuntimeException {
   
 }
