@@ -3,12 +3,10 @@ package calc;
 import java.util.Map;
 
 public class Multiplication extends Binary{
-
-  public Multiplication() {
-
-  }
+ 
+  @Override
   public int evaluate(Map<String, Integer> m) {
-    return 0;
+    return m.get() 
   }
   public String toString() {
     return " * ";

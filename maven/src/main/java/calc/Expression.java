@@ -2,8 +2,9 @@ package calc;
 
 import java.util.Map;
 
-public interface Expression {
-  int evaluate(Map<String, Integer> m);
+interface Expression {
+  
+  int evaluate(Map<String, Integer> variables);
   String toString(); //(AST)
   int rank(); //(AST(Element))
 }
