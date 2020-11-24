@@ -4,9 +4,8 @@ import java.util.Map;
 
 public class Multiplication extends Binary{
  
-  @Override
   public int evaluate(Map<String, Integer> m) {
-    return m.get() 
+    return r.evaluate(m) * l.evaluate(m)  ;
   }
   public String toString() {
     return " * ";
